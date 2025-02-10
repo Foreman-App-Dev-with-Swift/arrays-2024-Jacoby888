@@ -149,7 +149,9 @@ print("***PROBLEM 1.4 : ARRAY MODIFICATION")
  //See the example above and remember the sixth element is the fifth index.
 // registrationList[1] = "Charlie1"
 // print(registrationList)
-registrationList[5] ="Rebbecca"
+registrationList[5] =
+
+"Rebecca"
   print(registrationList)
  print("\n")
  
@@ -157,8 +159,8 @@ registrationList[5] ="Rebbecca"
 print("***PROBLEM 1.5 : ARRAY REMOVAL")
 // Call removeLast() on registrationList. Store the result of removeLast() into a new constant deletedItem. If done correctly, this should remove Rebecca from the collection. print the registrationList, then print deletedItem.
 //Observe the output in the console and make sure it is correct.
-registrationList.removeList()
-   print(registrationList)
+registrationList.removeLast()
+print(registrationList)
 print("\n")
 
 print("***PROBLEM 2.0 : FITNESS TRACKING")
@@ -168,10 +170,12 @@ print("***PROBLEM 2.0 : FITNESS TRACKING")
  Using arrays of type String, create at least THREE lists (arrays), one for walking challenges, and one for running challenges, and one for lifting challenges - in that order. Each should have at least THREE challenges or how many times a week it's done and should be initialized using an array. Feel free to create more lists for different activities.
  */
 //Print all three of the arrays to make sure it outputs in the console.
-
-
-
-
+var walkingChallenges : [String] = ["Walk 2 miles a day." , "Walk a total of 10 miles a week." , "Walk for longer than 4 hours per day."]
+var runningChallenges : [String] = ["Run uphill everyweek for 2 hours." , "Run up on straight road for 2 hours weekly." , "Run around the Block 30 times a week"]
+var calistenicschallenges : [String] = ["Plank for 15 mins everyday." , "Do 35 pull-ups a day." , "Dead hang for 2 mins a day."]
+ print(walkingChallenges)
+  print(runningChallenges)
+   print(calistenicschallenges)
 print("\n")
 
 print("PROBLEM 2.1 : FITNESS TRACKING")
